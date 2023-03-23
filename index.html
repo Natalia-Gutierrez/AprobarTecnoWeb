@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Aprobación</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+    <script src="script.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3>¿Estoy aprobado en la materia de tecnología web?</h3>
+    <div>
+        <img src="tecweb.png" width="200">
+   
+</div>
+<div>
+    <input style="height:auto; width:50px;" type="button" onclick="si()" id="btnSi" value="Si" class="btn btn-primary" />
+    <input style="height:auto; width:50px;" type="button" onclick="no()" id="btnNo" onmouseover="mueveElBoton()" value="No" class="btn btn-danger"/>
+    </div>
+    <p>Intentos:<button id ="intentos" value="1">1</button></p>
+
+
+</body>
+</html>
